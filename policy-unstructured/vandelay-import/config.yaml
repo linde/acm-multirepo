@@ -1,7 +1,7 @@
-piVersion: v1
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: vandelay-import-config
 data:
   from-gitops: "true"
-  team-mananger: costanza
+  team-mananger: "costanza"
