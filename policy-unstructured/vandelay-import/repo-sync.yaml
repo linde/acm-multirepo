@@ -1,0 +1,12 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: vandelay-import
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/linde/acm-multirepo.git
+    branch: root-repo
+    dir: policy-unstructured
+    auth: none
