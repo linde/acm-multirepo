@@ -7,6 +7,6 @@ spec:
   sourceFormat: unstructured
   git:
     repo: https://github.com/linde/acm-multirepo.git
-    branch: root-repo
+    branch: vandelay-import
     dir: policy-unstructured
     auth: none
