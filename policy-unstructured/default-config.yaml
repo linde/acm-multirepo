@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: managed-config
+  namespace: default
+data:
+  from-gitop: "true" 
