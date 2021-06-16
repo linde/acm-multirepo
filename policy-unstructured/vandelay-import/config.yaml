@@ -1,0 +1,8 @@
+piVersion: v1
+kind: ConfigMap
+metadata:
+  /* namespace should come from repo sync'ing */
+  name: vandelay-import-config
+data:
+  from-gitops: "true"
+  team-mananger: costanza
