@@ -4,4 +4,4 @@ metadata:
   name: managed-config
   namespace: default
 data:
-  from-gitop: "true" 
+  from-gitops: "true" 
